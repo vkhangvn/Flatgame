@@ -22,6 +22,6 @@ public class Transition1 : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(2.5f);
-        SceneManager.LoadScene("Scene 2");
+        SceneManager.LoadScene("Road to geeky");
     }
 }
