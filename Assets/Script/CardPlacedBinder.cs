@@ -11,6 +11,8 @@ public class CardPlacedBinder : MonoBehaviour
     public GameObject fezan;
     public Transform slot;
     public GameObject arrow;
+    public Flowchart flowchart;
+    public string blockName;
 
     // Start is called before the first frame update
     void OnTriggerStay2D(Collider2D other)
@@ -21,15 +23,16 @@ public class CardPlacedBinder : MonoBehaviour
                 player.position = Vector2.MoveTowards(player.position,slot.transform.position, 8 * Time.deltaTime);
                 StartCoroutine(Timer());
                 arrow.SetActive(false);
+                flowchart.ExecuteBlock(blockName);
 
             }
         }
     }
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(0.5f);
         player1.SetActive(false);
         fezan.SetActive(true);
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Scene 6");
     }
 
