@@ -1164,6 +1164,7 @@ GameObject:
   - component: {fileID: 348100780}
   - component: {fileID: 348100782}
   - component: {fileID: 348100781}
+  - component: {fileID: 348100783}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1184,11 +1185,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 482.83063, y: 55.6855}
+  scrollPos: {x: 552.44714, y: 57.67212}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1198,7 +1199,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 348100765}
   selectedCommands:
-  - {fileID: 348100778}
+  - {fileID: 348100783}
   variables: []
   description: 
   stepPause: 0
@@ -1331,7 +1332,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181
     y: 6
-    width: 95
+    width: 97.87234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1406,7 +1407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 29
     y: 9
-    width: 111
+    width: 112.76595
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1499,7 +1500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 333.24115
     y: 4.229889
-    width: 92
+    width: 93.61702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1690,7 +1691,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.653
     y: 4.7592964
-    width: 86
+    width: 88.29787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1925,7 +1926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 590.6076
     y: 5.0069885
-    width: 124
+    width: 128.72339
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2210,7 +2211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588.93225
     y: 83.8145
-    width: 130
+    width: 135.10638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2235,6 +2236,7 @@ MonoBehaviour:
   - {fileID: 348100778}
   - {fileID: 348100777}
   - {fileID: 348100776}
+  - {fileID: 348100783}
   suppressAllAutoSelections: 0
 --- !u!114 &348100766
 MonoBehaviour:
@@ -2406,7 +2408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: Wait...
+  storyText: Wait I see something..
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2486,8 +2488,8 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
+  fadeWhenDone: 0
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1661959405}
@@ -2513,8 +2515,8 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
+  fadeWhenDone: 0
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1587509002}
@@ -2556,7 +2558,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &348100781
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2577,7 +2579,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &348100782
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2596,6 +2598,25 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &348100783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348100716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 79
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene 7
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &402625340
 GameObject:
   m_ObjectHideFlags: 0
