@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 6.unity
     guid: 1134cc4d77c84dc4dada85acc51ea3b0
+  - enabled: 1
+    path: Assets/Scenes/Ramen.unity
+    guid: 724cc94c2ea3c97449c4e2c779e800ff
+  - enabled: 1
+    path: Assets/Scenes/Steak.unity
+    guid: c283259d3aa90744eb0d8c173a885477
   m_configObjects: {}

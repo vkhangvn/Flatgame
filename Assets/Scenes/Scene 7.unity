@@ -1089,7 +1089,6 @@ GameObject:
   - component: {fileID: 352573491}
   - component: {fileID: 352573490}
   - component: {fileID: 352573489}
-  - component: {fileID: 352573492}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1199,148 +1198,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352573487}
   m_CullTransparentMesh: 1
---- !u!114 &352573492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352573487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eed213f939e3bc145a2da2ac5c234d2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 352573489}
-  loadScreen: {fileID: 0}
---- !u!1 &431797850
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 431797852}
-  - component: {fileID: 431797851}
-  m_Layer: 0
-  m_Name: Rival theme
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!82 &431797851
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431797850}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2428bfe7ab3d7a546988334bcbec7f7e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &431797852
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431797850}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6075736, y: -1.1598929, z: 0.012830928}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521807793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,7 +1489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: yo it's been a while bro
+  m_Text: 
 --- !u!222 &572561853
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3178,8 +3035,6 @@ GameObject:
   - component: {fileID: 1420723029}
   - component: {fileID: 1420723028}
   - component: {fileID: 1420723027}
-  - component: {fileID: 1420723026}
-  - component: {fileID: 1420723025}
   - component: {fileID: 1420723030}
   - component: {fileID: 1420723032}
   - component: {fileID: 1420723034}
@@ -3199,23 +3054,21 @@ GameObject:
   - component: {fileID: 1420723043}
   - component: {fileID: 1420723042}
   - component: {fileID: 1420723041}
-  - component: {fileID: 1420723052}
-  - component: {fileID: 1420723061}
   - component: {fileID: 1420723060}
   - component: {fileID: 1420723059}
   - component: {fileID: 1420723058}
   - component: {fileID: 1420723057}
   - component: {fileID: 1420723056}
-  - component: {fileID: 1420723055}
-  - component: {fileID: 1420723054}
-  - component: {fileID: 1420723053}
   - component: {fileID: 1420723065}
-  - component: {fileID: 1420723064}
   - component: {fileID: 1420723063}
   - component: {fileID: 1420723062}
   - component: {fileID: 1420723067}
   - component: {fileID: 1420723066}
   - component: {fileID: 1420723068}
+  - component: {fileID: 1420723070}
+  - component: {fileID: 1420723069}
+  - component: {fileID: 1420723071}
+  - component: {fileID: 1420723072}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3236,11 +3089,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -593.91516, y: 167.06825}
+  scrollPos: {x: 540.57526, y: 197.69046}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9100001
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3248,9 +3101,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1420723059}
+  - {fileID: 1420723029}
   selectedCommands:
-  - {fileID: 1420723068}
+  - {fileID: 1420723072}
   variables: []
   description: 
   stepPause: 0
@@ -3278,7 +3131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181
     y: 7.0309277
-    width: 90.65933
+    width: 92.352936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3290,6 +3143,8 @@ MonoBehaviour:
   - {fileID: 1420723016}
   - {fileID: 1420723021}
   - {fileID: 1420723040}
+  - {fileID: 1420723070}
+  - {fileID: 1420723069}
   - {fileID: 1420723022}
   suppressAllAutoSelections: 0
 --- !u!114 &1420723011
@@ -3324,7 +3179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Ey another famillar face
+  storyText: That was crazy broo
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3368,7 +3223,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 30.030928
     y: 5.9690723
-    width: 109.34065
+    width: 113.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3410,7 +3265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: 'Long time no see '
+  storyText: It's my top chased also
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3439,7 +3294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320
     y: 6
-    width: 92.85714
+    width: 95.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3467,7 +3322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Yup dropping by for some pack
+  storyText: The card look insane
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3533,7 +3388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: I'm kinda hungry so might go and grab a meal now
+  storyText: Guest I lost that one then
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3564,51 +3419,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   durationOLD: 0
---- !u!114 &1420723025
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  storyText: Ya got anything from the pack?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 0
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 975971991}
---- !u!114 &1420723026
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
 --- !u!114 &1420723027
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3623,7 +3433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: 'I just came bro '
+  storyText: 'You need to trust '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3672,8 +3482,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 458.5
-    y: 6
-    width: 91.75824
+    y: 5
+    width: 93.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3684,9 +3494,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1420723030}
   - {fileID: 1420723027}
+  - {fileID: 1420723072}
+  - {fileID: 1420723071}
   - {fileID: 1420723032}
-  - {fileID: 1420723025}
-  - {fileID: 1420723026}
   - {fileID: 1420723035}
   suppressAllAutoSelections: 0
 --- !u!114 &1420723030
@@ -3781,7 +3591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: Yeah check out this Fezanskibidi !
+  storyText: 'Sybau lil bro '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3793,7 +3603,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 260145972}
+  setSayDialog: {fileID: 945232074}
 --- !u!114 &1420723037
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3826,14 +3636,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 600.24115
+    x: 601.24115
     y: 4.229889
-    width: 93.95604
+    width: 86.47058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 22
-  blockName: Khang 2
+  blockName: Staff 2
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3855,7 +3665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: Oh khang's here too
+  storyText: 'I''m still shaking '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3882,7 +3692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: But I also need money for food though
+  storyText: But I also need money for food.....
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3927,7 +3737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: Ummmm I do want packs....
+  storyText: Hmmm there's only 2 pack though...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3995,7 +3805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 927.6252
     y: 5.4206543
-    width: 95.05494
+    width: 98.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4024,7 +3834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: hey there's only a few packs left
+  storyText: let stop while we still ahead yeah?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4069,7 +3879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: Whoaa that's really nice
+  storyText: Well guess it time to go then
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4119,7 +3929,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 772.3698
     y: 4.4206543
-    width: 92.85714
+    width: 94.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4132,109 +3942,8 @@ MonoBehaviour:
   - {fileID: 1420723048}
   - {fileID: 1420723047}
   - {fileID: 1420723045}
-  - {fileID: 1420723052}
   - {fileID: 1420723044}
-  - {fileID: 1420723061}
   suppressAllAutoSelections: 0
---- !u!114 &1420723052
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 39
-  indentLevel: 0
-  storyText: Wanna split the rest?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 975971991}
---- !u!114 &1420723053
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 48
-  indentLevel: 0
-  storyText: The meal is on me if you win
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1420723054
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 47
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
---- !u!114 &1420723055
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 46
-  indentLevel: 0
-  storyText: We do a pack battle
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1420723056
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4267,7 +3976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: How about this?
+  storyText: well I'm stopping
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4317,7 +4026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1091.9204
     y: 7.5940876
-    width: 92.85714
+    width: 94.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4329,10 +4038,6 @@ MonoBehaviour:
   - {fileID: 1420723068}
   - {fileID: 1420723057}
   - {fileID: 1420723056}
-  - {fileID: 1420723055}
-  - {fileID: 1420723054}
-  - {fileID: 1420723053}
-  - {fileID: 1420723064}
   - {fileID: 1420723063}
   suppressAllAutoSelections: 0
 --- !u!114 &1420723060
@@ -4348,24 +4053,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 41
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
---- !u!114 &1420723061
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 40
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
@@ -4419,24 +4106,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1420723064
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 0.5
-  durationOLD: 0
 --- !u!114 &1420723065
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4451,9 +4120,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1276.7451
-    y: -0.6851883
-    width: 95.05494
+    x: 1272.7451
+    y: 6.3148117
+    width: 98.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4521,11 +4190,110 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 431797850}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1420723069
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420723007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  storyText: Too much adrenaline!!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 975971991}
+--- !u!114 &1420723070
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420723007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.5
+  durationOLD: 0
+--- !u!114 &1420723071
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420723007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1420723072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420723007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  storyText: In the heart of the card
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1495306751
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,4 +4741,3 @@ SceneRoots:
   - {fileID: 13611391}
   - {fileID: 808781537}
   - {fileID: 329578043}
-  - {fileID: 431797852}
