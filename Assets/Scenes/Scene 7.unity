@@ -3092,7 +3092,6 @@ GameObject:
   - component: {fileID: 1420723062}
   - component: {fileID: 1420723067}
   - component: {fileID: 1420723066}
-  - component: {fileID: 1420723068}
   - component: {fileID: 1420723070}
   - component: {fileID: 1420723069}
   - component: {fileID: 1420723071}
@@ -3117,11 +3116,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 540.57526, y: 197.69046}
+  scrollPos: {x: -85.056564, y: 103.12242}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3129,9 +3128,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1420723029}
-  selectedCommands:
-  - {fileID: 1420723072}
+  - {fileID: 1420723059}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3159,7 +3157,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181
     y: 7.0309277
-    width: 92.352936
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3251,7 +3249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 30.030928
     y: 5.9690723
-    width: 113.5294
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3322,7 +3320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320
     y: 6
-    width: 95.88235
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3511,7 +3509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 458.5
     y: 5
-    width: 93.5294
+    width: 93
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3666,7 +3664,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 601.24115
     y: 4.229889
-    width: 86.47058
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3833,7 +3831,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 927.6252
     y: 5.4206543
-    width: 98.23529
+    width: 97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3957,7 +3955,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 772.3698
     y: 4.4206543
-    width: 94.70587
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4004,7 +4002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: well I'm stopping
+  storyText: well Imma go home now
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4052,9 +4050,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1091.9204
-    y: 7.5940876
-    width: 94.70587
+    x: 1095.9204
+    y: 6.5940876
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4063,7 +4061,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1420723068}
   - {fileID: 1420723057}
   - {fileID: 1420723056}
   - {fileID: 1420723063}
@@ -4150,7 +4147,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.7451
     y: 6.3148117
-    width: 98.23529
+    width: 97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4202,27 +4199,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   durationOLD: 0
---- !u!114 &1420723068
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420723007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 55
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1420723069
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4297,7 +4273,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1420723072
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
