@@ -19,7 +19,7 @@ public class Creditwall : MonoBehaviour
     }
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(1.2f);
         SceneManager.LoadScene("Main menu");
     }
 
