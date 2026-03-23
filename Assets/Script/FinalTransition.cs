@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class GetMeal1 : MonoBehaviour
+public class FinalTransition : MonoBehaviour
 {
     public Button button;
     public GameObject loadScreen;
@@ -16,7 +16,7 @@ public class GetMeal1 : MonoBehaviour
     // Update is called once per frame
     void TaskOnClick()
     {
-        SceneManager.LoadScene("Com Chay");
+        SceneManager.LoadScene("Final pack");
 
     }
 }
