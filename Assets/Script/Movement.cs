@@ -8,10 +8,11 @@ public class Movement : MonoBehaviour
 {
     public float speed = 10f;
     public GameObject moveSound;
+    private SpriteRenderer playerSprite;
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -32,11 +33,13 @@ public class Movement : MonoBehaviour
         {
             transform.Translate(speed * Time.deltaTime, 0, 0);
             moveSound.SetActive(true);
+            playerSprite.flipX = false;
         }
         if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(-speed * Time.deltaTime, 0, 0);
             moveSound.SetActive(true);
+            playerSprite.flipX = true;
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
